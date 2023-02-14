@@ -1,0 +1,44 @@
+$main-color: rgb(255, 0, 128);
+$secondary-color: rgb(255, 125, 190);
+$tertiary-color: rgb(255, 160, 207);
+$special-font: monospace;
+
+body {
+  background-image: image();
+}
+
+h1 {
+  font-family: $special-font;
+  text-align: center;
+  color: $main-color;
+}
+
+h2 {
+  color: $secondary-color;
+}
+
+h3 {
+  text-align: justify;
+  color: $tertiary-color;
+}
+
+.big {
+  font-size: 35px;
+}
+
+.linea {
+  text-decoration: underline;
+}
+
+ul {
+  font-family: $special-font;
+  color: rgb(183, 0, 255);
+  font-size: 25px;
+}
+
+.Albumtext {
+  text-align: left;
+  color: $tertiary-color;
+  background-color: black;
+  font-size: 15px;
+}
